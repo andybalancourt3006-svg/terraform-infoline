@@ -7,3 +7,5 @@ terraform.tfstate.backup
 crash.log
 *.tfvars
 **/*.zip
+**/out.json
+
