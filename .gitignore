@@ -8,4 +8,4 @@ crash.log
 *.tfvars
 **/*.zip
 **/out.json
-
+.kube/
