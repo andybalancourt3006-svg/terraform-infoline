@@ -22,3 +22,9 @@
 
 # OS / Editor
 .DS_Store
+
+# Angular
+at2-apps/angular-front/node_modules/
+
+# VSCode
+**/.vscode/
