@@ -1,11 +1,24 @@
-.terraform/
-.terraform.lock.hcl
-terraform.tfstate
-terraform.tfstate.backup
+# Terraform
+**/.terraform/
 **/terraform.tfstate
+**/terraform.tfstate.*
 **/terraform.tfstate.backup
-crash.log
-*.tfvars
-**/*.zip
+**/*.tfstate
+**/*.tfstate.*
+
+# Terraform artifacts / local files
 **/out.json
-.kube/
+
+# Lambda build artifacts
+**/*.zip
+
+# Java / Maven
+**/target/
+**/*.log
+
+# Node / Angular
+**/node_modules/
+**/dist/
+
+# OS / Editor
+.DS_Store
